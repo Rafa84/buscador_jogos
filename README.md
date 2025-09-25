@@ -63,3 +63,73 @@ O projeto foi desenvolvido com auxílio das IAs **Gemini (Google)** e **ChatGPT 
    ```bash
    git clone https://github.com/SEU_USUARIO/buscador_jogos.git
    cd buscador_jogos
+
+2. **Crie e ative um ambiente virtual**
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate   # Windows
+```
+
+3. **Instale as dependências**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Configure sua chave da API**
+Crie um arquivo `config.json` na raiz do projeto:
+```json
+{
+  "API_KEY": "sua_chave_da_api_aqui"
+}
+```
+Chave obtida em: [IsThereAnyDeal API](https://isthereanydeal.com/apps/api/).
+
+---
+
+## ▶️ Como Usar
+
+1. Execute a interface gráfica:
+```bash
+python finder_GUI.py
+```
+
+2. Na janela:
+   - Digite o nome de um jogo e clique em **Adicionar**.  
+   - Clique em **Atualizar preços da Internet** para salvar ofertas.  
+   - Selecione o jogo no dropdown para ver o **histórico**.  
+
+3. Para exportar os resultados para CSV:
+```bash
+python exportador.py
+```
+
+---
+
+## 🖼️ Capturas de Tela
+
+![finder_demo](./assets/finder_gui.gif)  
+*(Exemplo de busca, atualização e consulta ao histórico)*   
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Estatísticas: menor preço histórico, média de preços, etc.  
+- [ ] Gráficos com evolução de preços no tempo.  
+- [ ] Versão Web (Flask/Streamlit) para acessar via navegador.  
+- [ ] Alertas automáticos de promoções.  
+
+---
+
+## 🙏 Agradecimentos
+
+- [IsThereAnyDeal](https://isthereanydeal.com/) pela API pública.  
+- [PySimpleGUI](https://pysimplegui.readthedocs.io/en/latest/) por simplificar GUIs em Python.  
+- **Gemini (Google)** e **ChatGPT (OpenAI)** como parceiros de brainstorming, depuração e aprendizado.  
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
