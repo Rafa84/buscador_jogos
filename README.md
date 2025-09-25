@@ -16,7 +16,7 @@ Com o Finder, você pode:
 
 📸 **Capturas de Tela**  
 
-![finder_gui](./assets/finder_gui.png) 
+![finder_gui](./assets/finder_gui.PNG) 
 *(Exemplo da interface principal do Finder)*  
 
 🎞️ **Demo em Ação**  
