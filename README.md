@@ -22,7 +22,7 @@ Com o Finder, você pode:
 🎞️ **Demo em Ação**  
 
 ![finder_demo](./assets/finder_gui.gif)  
-*(Exemplo de busca, atualização e consulta ao histórico)*  
+*(Evolução de versão, exemplo de busca, atualização e consulta ao histórico)*  
 
 ---
 
